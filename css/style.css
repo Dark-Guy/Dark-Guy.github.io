@@ -1,0 +1,163 @@
+/* =======================================================
+                        ESTILAZAÇÃO
+* ======================================================= */
+body {
+  font-family: "Roboto", Arial, serif;
+  line-height: 1.8;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a {
+  color: #FFF;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover {
+  text-decoration: none;
+  color: #02fbfd;
+}
+a:focus, a:active {
+  outline: none;
+}
+
+p{
+    margin-top: 5px;
+    color: #FFF;
+    font-weight: 300;
+    font-family: "Roboto", Arial, serif;
+    line-height: 1;
+}
+
+header {
+  position: relative;
+  font-size: 14px;
+  color: #000A;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+/*QUADRADINHO*/
+header .fh5co-navbar-brand .fh5co-logo:after {
+  position: absolute;
+  bottom: 13px;
+  right: -14px;
+  width: 12px;
+  height: 12px;
+  background: #F03861;
+  content: '';
+}
+header .fh5co-navbar-brand .fh5co-logo:hover {
+  text-decoration: none;
+}
+header #fh5co-main-nav > ul {
+  padding: 0;
+  margin: 0;
+}
+header #fh5co-main-nav > ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+  font-size: 18px;
+}
+/*RESPONSIVIDADE*/
+@media screen and (max-width: 768px) {
+  header .container> ul li {
+    display: block;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+}
+header #fh5co-main-nav > ul li a:hover, header #fh5co-main-nav > ul li a:focus {
+  text-decoration: none;
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-hero, .fh5co-parallax {
+    height: inherit;
+    padding: 4em 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fh5co-hero .fh5co-intro h1, .fh5co-parallax .fh5co-intro h1 {
+    font-size: 30px;
+  }
+}
+.fh5co-hero .fh5co-intro p, .fh5co-parallax .fh5co-intro p {
+  color: #fff;
+}
+.fh5co-hero .fh5co-intro p a, .fh5co-parallax .fh5co-intro p a {
+  color: #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+.fh5co-hero .fh5co-intro p a:hover, .fh5co-parallax .fh5co-intro p a:hover {
+  color: #fff;
+}
+
+.fh5co-services-right .fh5co-table2 {
+  display: table;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #F03861;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.fh5co-services-right .fh5co-table-cell2 {
+  display: table-cell;
+  vertical-align: middle;
+}
+.fh5co-services-right .fh5co-table-cell2 i {
+  display: block;
+  color: #fff;
+  font-size: 32px;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-services-right {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .fh5co-services-right .holder-section {
+    padding-right: 0;
+    padding-left: 100px;
+  }
+  .fh5co-services-right .fh5co-table2 {
+    left: 0;
+  }
+}
+.contact-info {
+  margin-bottom: 4em;
+  padding: 0;
+}
+.contact-info li {
+  list-style: none;
+  margin: 0 0 20px 0;
+  position: relative;
+  padding-left: 40px;
+}
+.contact-info li i {
+  position: absolute;
+  top: .3em;
+  left: 0;
+  font-size: 22px;
+  color: #F03861;
+}
+.contact-info li a {
+  color: #F03861;
+}
+
+#footer p {
+  font-size: 16px;
+}
+#footer p:last-child {
+  margin-bottom: 0;
+}
+
+.js .animate-box {
+  opacity: 0;
+}
